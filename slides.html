@@ -1,0 +1,129 @@
+<!-- -*- encoding: utf-8; -*- -->
+<link rel="stylesheet" href="theme/cxl.css">
+
+<code id="Seq" class="hidden" src="src/Seq.thy"></code>
+
+<section>
+    <h2>Interactive Proof Presentations with Cobra</h2>
+    <img style="margin-bottom: -55px; height: 120px;"
+	 src="images/martin.png"><a href="http://www.dfki.de/cps/staff/mari01">Martin Ring</a><!-- <br style="margin-bottom: 70px;"/> -->
+    <img  style="margin-left: 200px; margin-bottom: -55px; height: 120px;"
+	  src="images/cxl.png"><a href="http://www.informatik.uni-bremen.de/~cxl">Christoph Lüth</a><br style="margin-bottom: 3em;"/>
+    {martin.ring,christoph.lueth}@dfki.de
+    <br style="margin-bottom: 2em;"/>
+    <img style="margin-left: 100px; height: 50px; margin-right: 100px;" src="images/DFKI-Logo-mit-Schriftzug.svg">
+    <img style="height: 50px;" src="images/Uni-Bremen-Logo.png">
+</section>
+
+<section>
+  <h2>Presenting Proofs</h2>
+  <h3>The traditional way</h3>
+  <center>
+  <img style="height: 300px;"
+       src="images/Dijkstra_1994.jpg">
+  </center>
+</section>
+
+<section>
+  <h2>Cobra to the rescue!</h2>
+  <center>
+  <img style="background: url('images/serveimage.jpg'); width: 350px;"
+       src="images/Cobra-large-plain.svg">
+  </center>
+</section>
+
+<section>
+  <h2>A Short Demo</h2>
+  Sequences and their concatenation
+  <code src="#def-seq-conc"></code>
+</section>
+
+
+<section>
+  <h2>A Short Lemma</h2>
+  <code src="#reverse-conc" class="states"></code>
+</section>
+
+<section>
+  <h2>A Short Proof</h2>
+  <code class="states" src="#reverse-reverse"></code>
+</section>
+
+<section>
+  <h2>The Whole Shebang</h2>
+  <center><img height="800px" src="images/Seq.svg"></center>
+</section>
+
+<section>
+  <h2>A Short Haskell Demo</h2>
+  <code src="src/Foo.hs"></code>
+</section>
+
+
+<section>
+  <h2>A Short Scala Demo</h2>
+  <code src="src/Short.scala"></code>
+</section>
+
+<section>
+  <h2>Cobra System Architecture</h2>
+  <center>
+     <img style="width: 800px;" src="images/sys-arch-0.svg">
+  </center>   
+</section>
+
+<section>
+  <h2>Cobra System Architecture</h2>
+  <center>
+     <img style="width: 800px;" src="images/sys-arch-1.svg">
+  </center>   
+</section>
+
+<section>
+  <h2>Cobra Implementation</h2>
+  <center>
+     <img style="alignment: centered; width: 800px;" src="images/implementation.svg">
+  </center>   
+</section>
+
+<section>
+  <h2>A Hatful of Helpers</h2>
+  We use the following libraries:<br style="margin-bottom: 2em;"/>
+  <ul style="li { .margin-bottom: 2em; }">
+    <li><a href="http://lab.hakim.se/reveal-js/"><em>reveal.js</em></a> as presentation engine 
+    <li><a href="https://codemirror.net/"><em>CodeMirror</em></a> as editor 
+    <li><a href="http://www.mathjax.org/"><em>MathJax</em></a> for display
+      $\LaTeX$ formulae:<br style="margin-bottom: 1em;"/>
+      $$\textit{Lan}_K T(c) = \int^m \textbf{C}(Km, c)\cdot Tm $$      
+  </ul>
+</section>
+
+<section>
+  <h2>Cobra Use Cases</h2>
+  <ol>
+    <li>Class room presentations, conference talks
+      <ul><li>One presenter, many mainly passive listeners
+	  <li>Advantage: can react to audience questions 
+      </ul>
+    <li>Group presentations, tutoring, code review
+      <ul><li>Small group of participants, listener and presenter not disjoint
+	  <li>Advantage: active document can serve as focus of discussion
+      </ul>
+    <li>Self study
+      <ul><li>One user and their document
+	  <li>Advantage: can interact with document instead of having to
+	  deal with technical issues
+  </ol>
+</section>
+
+<section>
+  <h2>Conclusions</h2>
+  <ul>
+    <li>Cobra makes presentations <em>active</em> documents!
+    <li>Supports Isabelle, Haskell, Scala
+    <li>Available for all major operating systems at<br/>
+      <a href="http://www.flatmap.net/cobra"><tt>http://www.flatmap.net/cobra</tt></a>
+    <li>Hands-On demo later in the day --- please do come.
+    <li>Try it --- we would love your feedback.
+  </ul>
+</section>

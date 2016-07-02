@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="170.14565mm"
+   height="190.80836mm"
+   viewBox="0 0 602.87828 676.09263"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="Seq.svg">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.8147939"
+     inkscape:cx="216.58106"
+     inkscape:cy="208.8089"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:window-width="1280"
+     inkscape:window-height="771"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-95.068527,-112.44394)">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.06524086px;line-height:125%;font-family:'Open Sans';-inkscape-font-specification:Sans;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="105.39458"
+       y="130.02769"
+       id="text4171"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4173"
+         x="105.39458"
+         y="130.02769"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:FreeMono;-inkscape-font-specification:FreeMono">theory Seq</tspan><tspan
+         sodipodi:role="line"
+         x="105.39458"
+         y="146.35925"
+         id="tspan4175"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:FreeMono;-inkscape-font-specification:FreeMono">imports Main</tspan><tspan
+         sodipodi:role="line"
+         x="105.39458"
+         y="162.6908"
+         id="tspan4177"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:FreeMono;-inkscape-font-specification:FreeMono">begin</tspan><tspan
+         sodipodi:role="line"
+         x="105.39458"
+         y="179.02235"
+         id="tspan4179"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:FreeMono;-inkscape-font-specification:FreeMono" /><tspan
+         sodipodi:role="line"
+         x="105.39458"
+         y="195.3539"
+         id="tspan4181"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:FreeMono;-inkscape-font-specification:FreeMono">(** begin #def-seq-conc *)</tspan><tspan
+         sodipodi:role="line"
+         x="105.39458"
+         y="211.68546"
+         id="tspan4183"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:FreeMono;-inkscape-font-specification:FreeMono">datatype '\&lt;alpha&gt; seq = Empty | Seq '\&lt;alpha&gt; &quot;'\&lt;alpha&gt; seq&quot; </tspan><tspan
+         sodipodi:role="line"
+         x="105.39458"
+         y="228.017"
+         id="tspan4185"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:FreeMono;-inkscape-font-specification:FreeMono" /><tspan
+         sodipodi:role="line"
+         x="105.39458"
+         y="244.34856"
+         id="tspan4187"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:FreeMono;-inkscape-font-specification:FreeMono">fun conc :: &quot;'\&lt;alpha&gt; seq \&lt;Rightarrow&gt; '\&lt;alpha&gt; seq \&lt;Rightarrow&gt;</tspan><tspan
+         sodipodi:role="line"
+         x="105.39458"
+         y="260.68011"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:FreeMono;-inkscape-font-specification:FreeMono"
+         id="tspan4292">             '\&lt;alpha&gt; seq&quot;</tspan><tspan
+         sodipodi:role="line"
+         x="105.39458"
+         y="277.01166"
+         id="tspan4189"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:FreeMono;-inkscape-font-specification:FreeMono">where</tspan><tspan
+         sodipodi:role="line"
+         x="105.39458"
+         y="293.3432"
+         id="tspan4191"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:FreeMono;-inkscape-font-specification:FreeMono">  &quot;conc Empty ys = ys&quot;</tspan><tspan
+         sodipodi:role="line"
+         x="105.39458"
+         y="309.67474"
+         id="tspan4193"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:FreeMono;-inkscape-font-specification:FreeMono">| &quot;conc (Seq x xs) ys = Seq x (conc xs ys)&quot;</tspan><tspan
+         sodipodi:role="line"
+         x="105.39458"
+         y="326.00632"
+         id="tspan4195"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:FreeMono;-inkscape-font-specification:FreeMono">(** end #def-seq-conc *)</tspan><tspan
+         sodipodi:role="line"
+         x="105.39458"
+         y="342.33786"
+         id="tspan4197"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:FreeMono;-inkscape-font-specification:FreeMono" /><tspan
+         sodipodi:role="line"
+         x="105.39458"
+         y="358.6694"
+         id="tspan4199"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:FreeMono;-inkscape-font-specification:FreeMono">(** begin #fun-reverse *)</tspan><tspan
+         sodipodi:role="line"
+         x="105.39458"
+         y="375.00095"
+         id="tspan4201"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:FreeMono;-inkscape-font-specification:FreeMono">fun reverse :: &quot;'\&lt;alpha&gt; seq \&lt;Rightarrow&gt; '\&lt;alpha&gt; seq&quot;</tspan><tspan
+         sodipodi:role="line"
+         x="105.39458"
+         y="391.33252"
+         id="tspan4203"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:FreeMono;-inkscape-font-specification:FreeMono">where</tspan><tspan
+         sodipodi:role="line"
+         x="105.39458"
+         y="407.66406"
+         id="tspan4205"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:FreeMono;-inkscape-font-specification:FreeMono">  &quot;reverse Empty = Empty&quot;</tspan><tspan
+         sodipodi:role="line"
+         x="105.39458"
+         y="423.99561"
+         id="tspan4207"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:FreeMono;-inkscape-font-specification:FreeMono">| &quot;reverse (Seq x xs) = conc (reverse xs) (Seq x Empty)&quot;</tspan><tspan
+         sodipodi:role="line"
+         x="105.39458"
+         y="440.32718"
+         id="tspan4209"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:FreeMono;-inkscape-font-specification:FreeMono">(** end #fun-reverse *)</tspan><tspan
+         sodipodi:role="line"
+         x="105.39458"
+         y="456.65872"
+         id="tspan4211"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:FreeMono;-inkscape-font-specification:FreeMono" /><tspan
+         sodipodi:role="line"
+         x="105.39458"
+         y="472.99026"
+         id="tspan4213"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:FreeMono;-inkscape-font-specification:FreeMono">lemma conc_empty: &quot;conc xs Empty = xs&quot;</tspan><tspan
+         sodipodi:role="line"
+         x="105.39458"
+         y="489.32181"
+         id="tspan4215"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:FreeMono;-inkscape-font-specification:FreeMono">  by (induct xs, simp_all)</tspan><tspan
+         sodipodi:role="line"
+         x="105.39458"
+         y="505.65338"
+         id="tspan4217"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:FreeMono;-inkscape-font-specification:FreeMono" /><tspan
+         sodipodi:role="line"
+         x="105.39458"
+         y="521.98492"
+         id="tspan4219"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:FreeMono;-inkscape-font-specification:FreeMono">lemma conc_assoc: &quot;conc (conc xs ys) zs = conc xs (conc ys zs)&quot;</tspan><tspan
+         sodipodi:role="line"
+         x="105.39458"
+         y="538.31647"
+         id="tspan4221"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:FreeMono;-inkscape-font-specification:FreeMono">  by (induct xs, simp_all)</tspan><tspan
+         sodipodi:role="line"
+         x="105.39458"
+         y="554.64801"
+         id="tspan4223"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:FreeMono;-inkscape-font-specification:FreeMono" /><tspan
+         sodipodi:role="line"
+         x="105.39458"
+         y="570.97955"
+         id="tspan4225"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:FreeMono;-inkscape-font-specification:FreeMono">(** begin #reverse-conc *)</tspan><tspan
+         sodipodi:role="line"
+         x="105.39458"
+         y="587.3111"
+         id="tspan4227"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:FreeMono;-inkscape-font-specification:FreeMono">lemma reverse_conc: &quot;reverse (conc xs ys) = conc (reverse ys) (reverse xs)&quot;</tspan><tspan
+         sodipodi:role="line"
+         x="105.39458"
+         y="603.6427"
+         id="tspan4229"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:FreeMono;-inkscape-font-specification:FreeMono">  apply (induct xs)</tspan><tspan
+         sodipodi:role="line"
+         x="105.39458"
+         y="619.97424"
+         id="tspan4231"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:FreeMono;-inkscape-font-specification:FreeMono">  apply (simp_all add: conc_empty conc_assoc) </tspan><tspan
+         sodipodi:role="line"
+         x="105.39458"
+         y="636.30579"
+         id="tspan4233"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:FreeMono;-inkscape-font-specification:FreeMono">  done</tspan><tspan
+         sodipodi:role="line"
+         x="105.39458"
+         y="652.63733"
+         id="tspan4235"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:FreeMono;-inkscape-font-specification:FreeMono">(** end #reverse-conc *)</tspan><tspan
+         sodipodi:role="line"
+         x="105.39458"
+         y="668.96887"
+         id="tspan4237"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:FreeMono;-inkscape-font-specification:FreeMono" /><tspan
+         sodipodi:role="line"
+         x="105.39458"
+         y="685.30042"
+         id="tspan4239"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:FreeMono;-inkscape-font-specification:FreeMono">(** begin #reverse-reverse *)</tspan><tspan
+         sodipodi:role="line"
+         x="105.39458"
+         y="701.63196"
+         id="tspan4241"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:FreeMono;-inkscape-font-specification:FreeMono">lemma reverse_reverse: &quot;reverse (reverse xs) = xs&quot;</tspan><tspan
+         sodipodi:role="line"
+         x="105.39458"
+         y="717.96356"
+         id="tspan4243"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:FreeMono;-inkscape-font-specification:FreeMono">  oops</tspan><tspan
+         sodipodi:role="line"
+         x="105.39458"
+         y="734.2951"
+         id="tspan4245"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:FreeMono;-inkscape-font-specification:FreeMono">(** end #reverse-reverse *)</tspan><tspan
+         sodipodi:role="line"
+         x="105.39458"
+         y="750.62665"
+         id="tspan4247"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:FreeMono;-inkscape-font-specification:FreeMono" /><tspan
+         sodipodi:role="line"
+         x="105.39458"
+         y="766.95819"
+         id="tspan4249"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:FreeMono;-inkscape-font-specification:FreeMono" /><tspan
+         sodipodi:role="line"
+         x="105.39458"
+         y="783.28973"
+         id="tspan4251"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:FreeMono;-inkscape-font-specification:FreeMono">end</tspan><tspan
+         sodipodi:role="line"
+         x="105.39458"
+         y="799.62128"
+         id="tspan4253" /></text>
+    <rect
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect4255"
+       width="601.8783"
+       height="675.09265"
+       x="95.568527"
+       y="112.94394" />
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot4276"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:22.5px;line-height:125%;font-family:'Open Sans';-inkscape-font-specification:Sans;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       transform="translate(95.068527,112.44394)"><flowRegion
+         id="flowRegion4278"><rect
+           id="rect4280"
+           width="32.533966"
+           height="361.94037"
+           x="48.800949"
+           y="289.73895" /></flowRegion><flowPara
+         id="flowPara4282" /></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot4284"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:22.5px;line-height:125%;font-family:'Open Sans';-inkscape-font-specification:Sans;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       transform="translate(95.068527,112.44394)"><flowRegion
+         id="flowRegion4286"><rect
+           id="rect4288"
+           width="58.967812"
+           height="201.30391"
+           x="10.166864"
+           y="13.20024" /></flowRegion><flowPara
+         id="flowPara4290" /></flowRoot>  </g>
+</svg>
